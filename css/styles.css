@@ -9,3 +9,48 @@
 	width: 765px;
 	height: 750px;
 }
+
+#logo
+{
+	-webkit-animation-duration: 2s;
+}
+
+#button1
+{
+	-webkit-animation-delay: 0.1s;
+}
+
+#button2
+{
+	-webkit-animation-delay: 0.3s;
+}
+
+#button3
+{
+	-webkit-animation-delay: 0.5s;
+}
+
+#button4
+{
+	-webkit-animation-delay: 0.7s;
+}
+
+#card1
+{
+	-webkit-animation-delay: 0.1s;
+}
+
+#card2
+{
+	-webkit-animation-delay: 0.3s;
+}
+
+#card3
+{
+	-webkit-animation-delay: 0.5s;
+}
+
+#card4
+{
+	-webkit-animation-delay: 0.7s;
+}
