@@ -13,7 +13,7 @@
 
 <div class="navbar-fixed">  <!-- nav start -->
 	<nav class="light-blue accent-2">
-		<div class="nav-wrapper container">
+		<div class="nav-wrapper container hide-on-med-and-down">
 	      <a href="#head" id="logo" class="brand-logo animated infinite pulse">Big Hero 6</a>
 	      <ul id="nav-mobile" class="right hide-on-med-and-down">
 	        <li id="button1" class="animated fadeInDown"><a href="#introduction" class="waves-effect waves-light btn">Introduction</a></li>
@@ -21,6 +21,17 @@
 	        <li id="button3" class="animated fadeInDown"><a href="#conflict" class="waves-effect waves-light btn">Conflict</a></li>
 	        <li id="button4" class="animated fadeInDown"><a href="#soundtrack" class="waves-effect waves-light btn">Soundtrack</a></li>
 	      </ul>
+	    </div>
+
+	    <div id="side-nav">
+	      <a href="#head" id="logo" class="brand-logo animated infinite pulse hide-on-large-only">Big Hero 6</a>
+		  <ul id="slide-out" class="side-nav">
+		    <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#conflict">Conflict</a></li>
+            <li><a href="#soundtrack">Soundtrack</a></li>
+		  </ul>
+		  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 	    </div>
 	</nav> 
 </div> <!-- nav end -->
@@ -57,29 +68,42 @@
       <li>
         <img src="img/hiro.jpg"> <!-- Hiro -->
         <div class="caption center-align">
-          <h3 class="blue-grey-text text-lighten-1">Hiro Hamada</h3>
-          <h3 class="blue-grey-text ">The child prodigy grieving over his brother's death.</h3>
+          <h3 class="blue-grey-text text-lighten-1 hide-on-small-only">Hiro Hamada</h3>
+          <h3 class="blue-grey-text hide-on-small-only">The child prodigy grieving over his brother's death.</h3>
+        
+
+          <h4 class="blue-grey-text text-lighten-1 hide-on-med-and-up">Hiro Hamada</h4>
+          <h4 class="blue-grey-text hide-on-med-and-up">The child prodigy grieving over his brother's death.</h4>
         </div>
       </li>
       <li>
         <img src="img/baymax.jpg"> <!-- Baymax -->
         <div class="caption center-align">
-          <h3>Baymax</h3>
-          <h3 class="grey-text text-lighten-3">Hiro's companion and "living" momento of his brother's work.</h3>
+          <h3 class="hide-on-small-only">Baymax</h3>
+          <h3 class="grey-text text-lighten-3 hide-on-small-only">Hiro's companion and "living" momento of his brother's work.</h3>
+
+          <h4 class="hide-on-med-and-up">Baymax</h4>
+          <h4 class="grey-text text-lighten-3 hide-on-med-and-up">Hiro's companion and "living" momento of his brother's work.</h4>
         </div>
       </li>
       <li>
         <img src="img/friends-crop.png"> <!-- Friends -->
         <div class="caption center-align">
-          <h3 class="black-text">Hiro's Friends</h3>
-          <h3 class="black-text">A refreshing variety of characters that go from ordinary students to superheroes.</h3>
+          <h3 class="black-text hide-on-small-only">Hiro's Friends</h3>
+          <h3 class="black-text hide-on-small-only">A refreshing variety of characters that go from ordinary students to superheroes.</h3>
+
+          <h4 class="black-text hide-on-med-and-up">Hiro's Friends</h4>
+          <h4 class="black-text hide-on-med-and-up">A refreshing variety of characters that go from ordinary students to superheroes.</h4>
         </div>
       </li>
       <li>
         <img src="img/yokai.png"> <!-- Callaghan -->
         <div class="caption center-align">
-          <h3>Professor Callaghan</h3>
-          <h3 class="light grey-text text-lighten-3">The unexpected villian of the movie whose struggles with grief rival Hiro's.</h3>
+          <h3 class="hide-on-small-only">Professor Callaghan</h3>
+          <h3 class="light grey-text text-lighten-3 hide-on-small-only">The unexpected villian of the movie whose struggles with grief rival Hiro's.</h3>
+
+          <h4 class="hide-on-med-and-up">Professor Callaghan</h4>
+          <h4 class="light grey-text text-lighten-3 hide-on-med-and-up">The unexpected villian of the movie whose struggles with grief rival Hiro's.</h4>
         </div>
       </li>
     </ul>
