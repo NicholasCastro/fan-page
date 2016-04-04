@@ -10,6 +10,16 @@
 	height: 750px;
 }
 
+.med-text
+{
+	font-size: 30px;
+}
+
+.med-title
+{
+	font-size: 60px;
+}
+
 #logo
 {
 	-webkit-animation-duration: 2s;
